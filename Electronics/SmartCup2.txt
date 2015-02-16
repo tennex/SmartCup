@@ -1,0 +1,53 @@
+Partlist exported from C:/Users/Orav/Desktop/SmartCup/SmartCup.sch at 8.12.2014 11:51:27
+
+Part Value           Device          Package      Description                                       MF MPN     OC_FARNELL OC_NEWARK
+C1   0.1uF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C2   0.1uF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C3   10uF            C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C4   100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C5   100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C6   10uF            C-EUC0805       C0805        CAPACITOR, European symbol                                                       
+C7   100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C8   100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C9   100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C10  100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C11  100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C12  100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+C13  100nF           C-EUC0603       C0603        CAPACITOR, European symbol                                                       
+CN1                  USBMINIB        USB-MINIB    USB Connectors                                                                   
+D1                   DIODE_SOD-123FL SOD-123FL    Diode                                                                            
+IC1  REG1117         REG1117         SOT223       800mA and 1A Low Dropout (LDO) Positive Regulator    REG1117 1097566    14P6981  
+IC2  REG1117         REG1117         SOT223       800mA and 1A Low Dropout (LDO) Positive Regulator    REG1117 1097566    14P6981  
+JP1                  PINHD-1X2       1X02         PIN HEADER                                                                       
+LED1 GM1WA55311A     GM1WA55311A     GM1WA55311A  Chip LED RGB                                                                     
+LED2 GM1WA55311A     GM1WA55311A     GM1WA55311A  Chip LED RGB                                                                     
+LED3 GM1WA55311A     GM1WA55311A     GM1WA55311A  Chip LED RGB                                                                     
+LED4 GM1WA55311A     GM1WA55311A     GM1WA55311A  Chip LED RGB                                                                     
+LED6                 LEDCHIP-LED0603 CHIP-LED0603 LED                                                                              
+Q1                   MOSFET-NSOT223  SOT223       N-Channel Mosfet                                                                 
+Q2                   MOSFET-NREFLOW  SOT23        N-Channel Mosfet                                                                 
+R1   100k            R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R2   100m            R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R3   165 Ohm         R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R4   0 Ohm           R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R5   0 Ohm           R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R6   165 Ohm         R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R7   0 Ohm           R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R8   0 Ohm           R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R9   165 Ohm         R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R10  0 Ohm           R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R11  0 Ohm           R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R12  165 Ohm         R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R13  0 Ohm           R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R14  0 Ohm           R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R15  22              R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R16  22              R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+R17  10k             R-EU_R0603      R0603        RESISTOR, European symbol                                                        
+SW1  SPST_TACT-EVQQ2 SPST_TACT-EVQQ2 EVQ-Q2       SMT 6mm switch, EVQQ2 series                                                     
+T1                   -NPN-SOT23-EBC  SOT23-EBC    NPN Transistror                                                                  
+U$1  ATMEGA32U4-AU   ATMEGA32U4-AU   TQFP44       http://www.ladyada.net/library/eagle                                             
+U$3  MCP73843        MCP73843        MSOP8_MC                                                                                      
+U$4  LM62TO-92       LM62TO-92       TO92-                                                                                         
+U$6  BOURNS_PWR      BOURNS_PWR      DPAK                                                                                          
+U$7  BOURNS_PWR      BOURNS_PWR      DPAK                                                                                          
+U$8  BOURNS_PWR      BOURNS_PWR      DPAK                                                                                          

@@ -10049,7 +10049,7 @@ Source MOTOROLA / ON Semiconductor mjd32-d.pdf</description>
 <instance part="R14" gate="G$1" x="111.76" y="10.16"/>
 <instance part="U$4" gate="G$1" x="160.02" y="106.68" rot="R270"/>
 <instance part="GND19" gate="1" x="160.02" y="93.98"/>
-<instance part="P+7" gate="VCC" x="165.1" y="119.38"/>
+<instance part="P+7" gate="VCC" x="165.1" y="121.92"/>
 <instance part="R15" gate="G$1" x="30.48" y="154.94" rot="MR90"/>
 <instance part="R16" gate="G$1" x="38.1" y="154.94" rot="R270"/>
 <instance part="GND25" gate="1" x="251.46" y="30.48"/>
@@ -10065,9 +10065,9 @@ Source MOTOROLA / ON Semiconductor mjd32-d.pdf</description>
 <instance part="C13" gate="G$1" x="25.4" y="101.6"/>
 <instance part="GND22" gate="1" x="25.4" y="93.98"/>
 <instance part="P+9" gate="VCC" x="25.4" y="111.76"/>
-<instance part="S1" gate="1" x="160.02" y="129.54"/>
-<instance part="S1" gate="G$1" x="162.56" y="142.24"/>
-<instance part="S1" gate="G$2" x="157.48" y="142.24" rot="R180"/>
+<instance part="S1" gate="1" x="160.02" y="139.7"/>
+<instance part="S1" gate="G$1" x="160.02" y="129.54"/>
+<instance part="S1" gate="G$2" x="157.48" y="149.86" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10236,6 +10236,7 @@ Source MOTOROLA / ON Semiconductor mjd32-d.pdf</description>
 <segment>
 <pinref part="U$4" gate="G$1" pin="VS"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
+<wire x1="165.1" y1="119.38" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
@@ -10678,18 +10679,18 @@ Source MOTOROLA / ON Semiconductor mjd32-d.pdf</description>
 <junction x="81.28" y="116.84"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="S1" gate="1" pin="S"/>
-<pinref part="S1" gate="G$1" pin="MT"/>
-<wire x1="162.56" y1="134.62" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="S1" gate="1" pin="O"/>
 <pinref part="S1" gate="G$2" pin="MT"/>
-<wire x1="157.48" y1="134.62" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="144.78" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="MT"/>
+<pinref part="S1" gate="1" pin="P"/>
+<wire x1="160.02" y1="129.54" x2="160.02" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

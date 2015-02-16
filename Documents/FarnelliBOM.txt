@@ -1,0 +1,23 @@
+<KOOD>,	<KOGUS>, <NIMI>, <KOMMENTAAR>
+2401856, 1, Orav, Aku
+1821249, 1, Orav, Switch
+2101696, 3, Orav, DPAK takisti
+2432142, 1, Orav, Temp. sensor
+1748525, 1, Orav, MCU
+1852163, 1, Orav, Charger
+1654060, 1, Orav, Mini USB
+2317422, 1, Orav, Diood
+2335287, 1, Orav, MOSFET P CH
+1212355, 2, Orav, LDO
+2449757, 4, Orav, RGB LED
+2112833, 11, Orav, C 0.1 uF
+2426958, 2, Orav, C 10 uF
+2309106, 8, Orav, R 0
+1527380, 5, Orav, R 165
+2333579, 1, Orav, R 100k
+2333522, 1, Orav, R 10k
+2333609, 2, Orav, R 22
+1717759, 5, Orav, R 100m
+2322070, 1, Orav, Green LED
+1758078, 1, Orav, MOSFET SOT223
+9512608, 1, Orav, MOSFET SOT-23

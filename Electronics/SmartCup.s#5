@@ -9851,7 +9851,7 @@ Source MOTOROLA / ON Semiconductor mjd32-d.pdf</description>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="adafruit" deviceset="DIODE" device="SMA"/>
+<part name="D1" library="adafruit" deviceset="DIODE" device="_SOD-123FL"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>

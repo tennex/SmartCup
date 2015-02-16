@@ -1,0 +1,13 @@
+<KOOD>,	<KOGUS>, <NIMI>, <KOMMENTAAR>
+2317422, 2, Orav, Diood
+2449757, 4, Orav, RGB LED
+2112833, 14, Orav, C 0.1 uF
+2426958, 3, Orav, C 10 uF
+2309106, 9, Orav, R 0
+1527380, 10, Orav, R 165
+2333579, 3, Orav, R 100k
+2333522, 3, Orav, R 10k
+2333609, 2, Orav, R 22
+1717759, 7, Orav, R 100m
+2322070, 2, Orav, Green LED
+9512608, 1, Orav, MOSFET SOT-23
