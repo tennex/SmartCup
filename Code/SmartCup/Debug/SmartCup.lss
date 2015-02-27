@@ -1,0 +1,322 @@
+
+SmartCup.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  000001f8  0000026c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         000001f8  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .stab         000006cc  00000000  00000000  0000026c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  3 .stabstr      00000085  00000000  00000000  00000938  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_aranges 00000080  00000000  00000000  000009c0  2**3
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   0000053d  00000000  00000000  00000a40  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00000140  00000000  00000000  00000f7d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000383  00000000  00000000  000010bd  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000054  00000000  00000000  00001440  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000111  00000000  00000000  00001494  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 56 00 	jmp	0xac	; 0xac <__ctors_end>
+   4:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+   8:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+   c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  10:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  14:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  18:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  1c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  20:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  24:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  28:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  2c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  30:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  34:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  38:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  3c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  40:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  44:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  48:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  4c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  50:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  54:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  58:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  5c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  60:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  64:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  68:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  6c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  70:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  74:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  78:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  7c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  80:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  84:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  88:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  8c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  90:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  94:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  98:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  9c:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  a0:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  a4:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+  a8:	0c 94 73 00 	jmp	0xe6	; 0xe6 <__bad_interrupt>
+
+000000ac <__ctors_end>:
+  ac:	11 24       	eor	r1, r1
+  ae:	1f be       	out	0x3f, r1	; 63
+  b0:	cf ef       	ldi	r28, 0xFF	; 255
+  b2:	da e0       	ldi	r29, 0x0A	; 10
+  b4:	de bf       	out	0x3e, r29	; 62
+  b6:	cd bf       	out	0x3d, r28	; 61
+
+000000b8 <__do_copy_data>:
+  b8:	11 e0       	ldi	r17, 0x01	; 1
+  ba:	a0 e0       	ldi	r26, 0x00	; 0
+  bc:	b1 e0       	ldi	r27, 0x01	; 1
+  be:	e8 ef       	ldi	r30, 0xF8	; 248
+  c0:	f1 e0       	ldi	r31, 0x01	; 1
+  c2:	02 c0       	rjmp	.+4      	; 0xc8 <__do_copy_data+0x10>
+  c4:	05 90       	lpm	r0, Z+
+  c6:	0d 92       	st	X+, r0
+  c8:	a0 30       	cpi	r26, 0x00	; 0
+  ca:	b1 07       	cpc	r27, r17
+  cc:	d9 f7       	brne	.-10     	; 0xc4 <__do_copy_data+0xc>
+
+000000ce <__do_clear_bss>:
+  ce:	11 e0       	ldi	r17, 0x01	; 1
+  d0:	a0 e0       	ldi	r26, 0x00	; 0
+  d2:	b1 e0       	ldi	r27, 0x01	; 1
+  d4:	01 c0       	rjmp	.+2      	; 0xd8 <.do_clear_bss_start>
+
+000000d6 <.do_clear_bss_loop>:
+  d6:	1d 92       	st	X+, r1
+
+000000d8 <.do_clear_bss_start>:
+  d8:	a0 30       	cpi	r26, 0x00	; 0
+  da:	b1 07       	cpc	r27, r17
+  dc:	e1 f7       	brne	.-8      	; 0xd6 <.do_clear_bss_loop>
+  de:	0e 94 f5 00 	call	0x1ea	; 0x1ea <main>
+  e2:	0c 94 fa 00 	jmp	0x1f4	; 0x1f4 <_exit>
+
+000000e6 <__bad_interrupt>:
+  e6:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+000000ea <init>:
+#include <util/delay.h>
+#include <avr/io.h>
+
+void init() {
+	//RGB LEDs
+	DDRB = 0xFF;
+  ea:	8f ef       	ldi	r24, 0xFF	; 255
+  ec:	84 b9       	out	0x04, r24	; 4
+	PORTB = 0x00;
+  ee:	15 b8       	out	0x05, r1	; 5
+	
+	//Heating element
+	DDRC = 0b11000000;
+  f0:	80 ec       	ldi	r24, 0xC0	; 192
+  f2:	87 b9       	out	0x07, r24	; 7
+	PORTC = 0x00;
+  f4:	18 b8       	out	0x08, r1	; 8
+	
+	//ADMUX
+	ADMUX = 0b11000000;
+  f6:	80 93 7c 00 	sts	0x007C, r24
+	
+	//ADC Temperature
+	DDRF = 0;
+  fa:	10 ba       	out	0x10, r1	; 16
+	ADCSRA = (1 << ADEN | 1 << ADSC);		//ADC Enable, Start conversion
+  fc:	80 93 7a 00 	sts	0x007A, r24
+
+}
+ 100:	08 95       	ret
+
+00000102 <getTemperature>:
+
+void getTemperature() {
+	ADCSRA |= (1 << ADSC);					//Start conversion
+ 102:	ea e7       	ldi	r30, 0x7A	; 122
+ 104:	f0 e0       	ldi	r31, 0x00	; 0
+ 106:	80 81       	ld	r24, Z
+ 108:	80 64       	ori	r24, 0x40	; 64
+ 10a:	80 83       	st	Z, r24
+		
+	while ((ADCSRA & (1<<ADIF)) == 0) {		//Wait ADC interrupt flag
+ 10c:	80 81       	ld	r24, Z
+ 10e:	84 ff       	sbrs	r24, 4
+ 110:	fd cf       	rjmp	.-6      	; 0x10c <getTemperature+0xa>
+	}
+	
+	//PORTB = (uint8_t)ADC;
+	
+	if ((uint8_t)ADC >= 96) { //3 SINIST
+ 112:	80 91 78 00 	lds	r24, 0x0078
+ 116:	90 91 79 00 	lds	r25, 0x0079
+ 11a:	80 36       	cpi	r24, 0x60	; 96
+ 11c:	18 f0       	brcs	.+6      	; 0x124 <getTemperature+0x22>
+		PORTB = 0b01100000;
+ 11e:	80 e6       	ldi	r24, 0x60	; 96
+ 120:	85 b9       	out	0x05, r24	; 5
+ 122:	12 c0       	rjmp	.+36     	; 0x148 <getTemperature+0x46>
+	}
+	else if ((uint8_t)ADC >= 92) { //3 LILLAT 1 PUNANE
+ 124:	80 91 78 00 	lds	r24, 0x0078
+ 128:	90 91 79 00 	lds	r25, 0x0079
+ 12c:	8c 35       	cpi	r24, 0x5C	; 92
+ 12e:	20 f0       	brcs	.+8      	; 0x138 <getTemperature+0x36>
+		PORTB = 0b00100000;
+ 130:	80 e2       	ldi	r24, 0x20	; 32
+ 132:	85 b9       	out	0x05, r24	; 5
+		PORTC = 0x11000000;
+ 134:	18 b8       	out	0x08, r1	; 8
+ 136:	08 c0       	rjmp	.+16     	; 0x148 <getTemperature+0x46>
+	}
+	else if ((uint8_t)ADC >= 32) { //4 PUNAST
+ 138:	80 91 78 00 	lds	r24, 0x0078
+ 13c:	90 91 79 00 	lds	r25, 0x0079
+ 140:	80 32       	cpi	r24, 0x20	; 32
+ 142:	10 f0       	brcs	.+4      	; 0x148 <getTemperature+0x46>
+		PORTB = 0b10100000;
+ 144:	80 ea       	ldi	r24, 0xA0	; 160
+ 146:	85 b9       	out	0x05, r24	; 5
+	}
+	OCR1A = ADC;
+ 148:	80 91 78 00 	lds	r24, 0x0078
+ 14c:	90 91 79 00 	lds	r25, 0x0079
+ 150:	90 93 89 00 	sts	0x0089, r25
+ 154:	80 93 88 00 	sts	0x0088, r24
+	//OCR1AL = ADCL;
+	ADCSRA |= 0b00010000;
+ 158:	ea e7       	ldi	r30, 0x7A	; 122
+ 15a:	f0 e0       	ldi	r31, 0x00	; 0
+ 15c:	80 81       	ld	r24, Z
+ 15e:	80 61       	ori	r24, 0x10	; 16
+ 160:	80 83       	st	Z, r24
+		//PORTB = 0b11000000;
+	//}
+	//else {
+		//PORTB = 0b01100000;
+	//}  
+}
+ 162:	08 95       	ret
+
+00000164 <testLED>:
+
+void testLED() {
+	PORTB = 0b10000000; //3 Rohelist, 1 punane
+ 164:	80 e8       	ldi	r24, 0x80	; 128
+ 166:	85 b9       	out	0x05, r24	; 5
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 168:	8f e7       	ldi	r24, 0x7F	; 127
+ 16a:	9a e1       	ldi	r25, 0x1A	; 26
+ 16c:	a6 e0       	ldi	r26, 0x06	; 6
+ 16e:	81 50       	subi	r24, 0x01	; 1
+ 170:	90 40       	sbci	r25, 0x00	; 0
+ 172:	a0 40       	sbci	r26, 0x00	; 0
+ 174:	e1 f7       	brne	.-8      	; 0x16e <testLED+0xa>
+ 176:	00 c0       	rjmp	.+0      	; 0x178 <testLED+0x14>
+ 178:	00 00       	nop
+	_delay_ms(1000);
+	PORTB = 0b01000000; //Sinakad See on teine olek
+ 17a:	80 e4       	ldi	r24, 0x40	; 64
+ 17c:	85 b9       	out	0x05, r24	; 5
+ 17e:	8f e7       	ldi	r24, 0x7F	; 127
+ 180:	9a e1       	ldi	r25, 0x1A	; 26
+ 182:	a6 e0       	ldi	r26, 0x06	; 6
+ 184:	81 50       	subi	r24, 0x01	; 1
+ 186:	90 40       	sbci	r25, 0x00	; 0
+ 188:	a0 40       	sbci	r26, 0x00	; 0
+ 18a:	e1 f7       	brne	.-8      	; 0x184 <testLED+0x20>
+ 18c:	00 c0       	rjmp	.+0      	; 0x18e <testLED+0x2a>
+ 18e:	00 00       	nop
+	_delay_ms(1000);
+	PORTB = 0b00100000; //3 Lillat, 1 punane
+ 190:	80 e2       	ldi	r24, 0x20	; 32
+ 192:	85 b9       	out	0x05, r24	; 5
+ 194:	8f e7       	ldi	r24, 0x7F	; 127
+ 196:	9a e1       	ldi	r25, 0x1A	; 26
+ 198:	a6 e0       	ldi	r26, 0x06	; 6
+ 19a:	81 50       	subi	r24, 0x01	; 1
+ 19c:	90 40       	sbci	r25, 0x00	; 0
+ 19e:	a0 40       	sbci	r26, 0x00	; 0
+ 1a0:	e1 f7       	brne	.-8      	; 0x19a <testLED+0x36>
+ 1a2:	00 c0       	rjmp	.+0      	; 0x1a4 <testLED+0x40>
+ 1a4:	00 00       	nop
+	_delay_ms(1000);
+	PORTB = 0b11000000; //3 Rohelist
+ 1a6:	80 ec       	ldi	r24, 0xC0	; 192
+ 1a8:	85 b9       	out	0x05, r24	; 5
+ 1aa:	8f e7       	ldi	r24, 0x7F	; 127
+ 1ac:	9a e1       	ldi	r25, 0x1A	; 26
+ 1ae:	a6 e0       	ldi	r26, 0x06	; 6
+ 1b0:	81 50       	subi	r24, 0x01	; 1
+ 1b2:	90 40       	sbci	r25, 0x00	; 0
+ 1b4:	a0 40       	sbci	r26, 0x00	; 0
+ 1b6:	e1 f7       	brne	.-8      	; 0x1b0 <testLED+0x4c>
+ 1b8:	00 c0       	rjmp	.+0      	; 0x1ba <testLED+0x56>
+ 1ba:	00 00       	nop
+	_delay_ms(1000);
+	PORTB = 0b10100000; //4 Punast
+ 1bc:	80 ea       	ldi	r24, 0xA0	; 160
+ 1be:	85 b9       	out	0x05, r24	; 5
+ 1c0:	8f e7       	ldi	r24, 0x7F	; 127
+ 1c2:	9a e1       	ldi	r25, 0x1A	; 26
+ 1c4:	a6 e0       	ldi	r26, 0x06	; 6
+ 1c6:	81 50       	subi	r24, 0x01	; 1
+ 1c8:	90 40       	sbci	r25, 0x00	; 0
+ 1ca:	a0 40       	sbci	r26, 0x00	; 0
+ 1cc:	e1 f7       	brne	.-8      	; 0x1c6 <testLED+0x62>
+ 1ce:	00 c0       	rjmp	.+0      	; 0x1d0 <testLED+0x6c>
+ 1d0:	00 00       	nop
+	_delay_ms(1000);
+	PORTB = 0b01100000; //3 Sinist See on alguses
+ 1d2:	80 e6       	ldi	r24, 0x60	; 96
+ 1d4:	85 b9       	out	0x05, r24	; 5
+ 1d6:	8f e7       	ldi	r24, 0x7F	; 127
+ 1d8:	9a e1       	ldi	r25, 0x1A	; 26
+ 1da:	a6 e0       	ldi	r26, 0x06	; 6
+ 1dc:	81 50       	subi	r24, 0x01	; 1
+ 1de:	90 40       	sbci	r25, 0x00	; 0
+ 1e0:	a0 40       	sbci	r26, 0x00	; 0
+ 1e2:	e1 f7       	brne	.-8      	; 0x1dc <testLED+0x78>
+ 1e4:	00 c0       	rjmp	.+0      	; 0x1e6 <testLED+0x82>
+ 1e6:	00 00       	nop
+	_delay_ms(1000);
+}
+ 1e8:	08 95       	ret
+
+000001ea <main>:
+
+int main(void) {
+	init();
+ 1ea:	0e 94 75 00 	call	0xea	; 0xea <init>
+	
+    while(1)
+    {
+		//testLED();
+		getTemperature();				
+ 1ee:	0e 94 81 00 	call	0x102	; 0x102 <getTemperature>
+ 1f2:	fd cf       	rjmp	.-6      	; 0x1ee <main+0x4>
+
+000001f4 <_exit>:
+ 1f4:	f8 94       	cli
+
+000001f6 <__stop_program>:
+ 1f6:	ff cf       	rjmp	.-2      	; 0x1f6 <__stop_program>
